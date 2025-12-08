@@ -1,0 +1,73 @@
+/* Button styles for project links */
+.project-btn {
+  display: inline-block;
+  padding: 0.45rem 0.9rem;
+  background: #0366d6;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(3,102,214,0.18);
+  transition: transform 160ms cubic-bezier(.2,.8,.2,1), box-shadow 160ms;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  font-weight: 600;
+}
+.project-btn:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(3,102,214,0.18); }
+.project-btn:active { transform: scale(0.97); }
+
+/* Pulse animation on click */
+@keyframes btn-pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(0.97); }
+  100% { transform: scale(1); }
+}
+.project-btn.pulse { animation: btn-pulse 220ms ease; }
+
+/* Ripple effect */
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  transform: scale(0);
+  background: rgba(255,255,255,0.6);
+  animation: ripple 600ms linear;
+  pointer-events: none;
+}
+@keyframes ripple {
+  to { transform: scale(4); opacity: 0; }
+}
+
+/* Global page colors and background for white text */
+body {
+  background-color: #071428; /* dark navy background */
+  color: #ffffff; /* default text color white */
+  margin: 0;
+}
+
+/* Project heading styling */
+h3 {
+  font-size: 1.6rem; /* larger project titles */
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* Make images responsive in the markdown content */
+img {
+  max-width: 100%;
+  width: 800px;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 0.6rem 0;
+}
+
+/* Links and small text adjustments for visibility on dark background */
+a, a:visited {
+  color: #9be3ff; /* light cyan for links */
+}
+
+p, li {
+  color: #ffffff;
+}

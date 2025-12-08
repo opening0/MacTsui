@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#0ea5a4"/>
+      <stop offset="1" stop-color="#0366d6"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#0f172a"/>
+  <rect x="40" y="40" width="720" height="400" rx="10" fill="url(#g)" opacity="0.12"/>
+  <g fill="#cbd5e1" font-family="Segoe UI, Roboto, Arial" font-size="20">
+    <text x="60" y="90" font-weight="700" fill="#ffffff">IDS Network Analysis</text>
+    <text x="60" y="130" fill="#e6eef8">Suricata / Snort captures · Log timelines · Alerts</text>
+  </g>
+  <g transform="translate(60,170)" fill="#94a3b8">
+    <rect x="0" y="0" width="640" height="8" rx="4" fill="#0ea5a4"/>
+    <rect x="0" y="28" width="480" height="8" rx="4" fill="#60a5fa"/>
+    <rect x="0" y="56" width="560" height="8" rx="4" fill="#93c5fd"/>
+  </g>
+  <g fill="#ffffff" opacity="0.9" font-family="monospace" font-size="12">
+    <text x="60" y="260">2025-12-07 10:24:12 INFO [suricata]: detected TCP SYN scan from 10.0.2.4</text>
+    <text x="60" y="280">2025-12-07 10:24:13 ALERT [snort]: possible SQL injection attempt</text>
+  </g>
+</svg>
