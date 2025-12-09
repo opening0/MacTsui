@@ -13,15 +13,15 @@ I used Suricata and Snort on a Linux VM to collect and analyze network logs. Thi
 
 ![IDS Network Analysis screenshot](assets/screenshots/ids-analysis.svg)
 
-<p><a class="project-btn" href="projects/ids-analysis/">View Project</a></p>
+<p><a class="project-btn" href="projects/ids-analysis/README.md">View Project</a></p>
 
 ### 2. Attacker vs Defender Virtual Lab
 
 A two-VM environment (Kali attacker & Ubuntu defender) used to simulate scanning, detection, traffic logging, and defensive response techniques.
 
-![Attacker vs Defender Lab screenshot](assets/screenshots/attacker-vs-defender-lab.svg "Attacker vs Defender Lab")
+![Attacker vs Defender Lab screenshot](assets/screenshots/attacker-vs-defender-lab.jpg "Attacker vs Defender Lab")
 
-<p><a class="project-btn" href="projects/attacker-vs-defender-lab/">View Project</a></p>
+<p><a class="project-btn" href="projects/attacker-vs-defender-lab/README.md">View Project</a></p>
 
 ### 3. Tech Shop Network
 
@@ -29,8 +29,7 @@ A demonstration of a technology retail network and website deployment (hosted vi
 
 ![Tech Shop Network screenshot](assets/screenshots/tech-shop-network.jpg "Tech Shop Network")
 
-<p><a class="project-btn" href="projects/tech-shop-network/">View Project</a></p>
-
+<p><a class="project-btn" href="projects/tech-shop-network/README.md">View Project</a></p>
 ---
 
 ## CV
